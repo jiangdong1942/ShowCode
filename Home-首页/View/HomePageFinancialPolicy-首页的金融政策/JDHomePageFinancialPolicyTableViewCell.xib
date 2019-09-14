@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="118" id="KGk-i7-Jjw" customClass="JDHomePageFinancialPolicyTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="388" height="118"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="388" height="117.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="751" text="weqeqw王企鹅群翁群翁eqweqw" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9HL-54-ghY">
+                        <rect key="frame" x="15" y="12" width="248" height="41"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" horizontalCompressionResistancePriority="749" text="中国网驱蚊器翁群驱蚊器翁" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IpV-VL-6UH">
+                        <rect key="frame" x="15" y="75.5" width="124.5" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10小时以前切尔奇翁" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Waq-0R-tgO">
+                        <rect key="frame" x="151.5" y="75.5" width="111.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lF1-46-rUH">
+                        <rect key="frame" x="15" y="116.5" width="373" height="1"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="dSp-uS-6fi"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="sOi-Y8-CMx">
+                        <rect key="frame" x="265" y="12" width="108" height="72"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="108" id="A0H-qp-wfo"/>
+                            <constraint firstAttribute="height" constant="72" id="YGN-mI-HXY"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Waq-0R-tgO" firstAttribute="top" secondItem="IpV-VL-6UH" secondAttribute="top" id="117-JW-0Ms"/>
+                    <constraint firstItem="Waq-0R-tgO" firstAttribute="leading" secondItem="IpV-VL-6UH" secondAttribute="trailing" constant="12" id="74I-4N-Npn"/>
+                    <constraint firstAttribute="bottom" secondItem="lF1-46-rUH" secondAttribute="bottom" id="8RA-WY-xSC"/>
+                    <constraint firstItem="lF1-46-rUH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="9cz-K0-5jS"/>
+                    <constraint firstAttribute="trailing" secondItem="lF1-46-rUH" secondAttribute="trailing" id="EkV-uJ-dCL"/>
+                    <constraint firstAttribute="bottom" secondItem="IpV-VL-6UH" secondAttribute="bottom" constant="13" id="LVG-or-KD6"/>
+                    <constraint firstAttribute="trailing" secondItem="9HL-54-ghY" secondAttribute="trailing" constant="125" id="S8W-ns-p5b"/>
+                    <constraint firstItem="IpV-VL-6UH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="UO9-Jd-MS4"/>
+                    <constraint firstItem="sOi-Y8-CMx" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="Vu2-FK-v6m"/>
+                    <constraint firstItem="9HL-54-ghY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="Xqk-bB-qi7"/>
+                    <constraint firstItem="9HL-54-ghY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="aY6-yV-GBC"/>
+                    <constraint firstAttribute="trailing" secondItem="sOi-Y8-CMx" secondAttribute="trailing" constant="15" id="cLb-Dd-DQf"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="sOi-Y8-CMx" secondAttribute="bottom" constant="12" id="ckK-xv-fLA"/>
+                    <constraint firstItem="IpV-VL-6UH" firstAttribute="top" relation="greaterThanOrEqual" secondItem="9HL-54-ghY" secondAttribute="bottom" constant="16" id="kIM-3T-YJ4"/>
+                    <constraint firstItem="Waq-0R-tgO" firstAttribute="trailing" secondItem="9HL-54-ghY" secondAttribute="trailing" id="szl-DK-bm3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="bottomView" destination="lF1-46-rUH" id="a9W-ta-tQl"/>
+                <outlet property="iconImageView" destination="sOi-Y8-CMx" id="TV4-i4-cgz"/>
+                <outlet property="iconImageViewHeight" destination="YGN-mI-HXY" id="jFh-2w-HfY"/>
+                <outlet property="resourceLabel" destination="IpV-VL-6UH" id="EGL-pj-IbT"/>
+                <outlet property="timerLabel" destination="Waq-0R-tgO" id="4rL-0H-nPF"/>
+                <outlet property="titleLabel" destination="9HL-54-ghY" id="tUI-SO-TjA"/>
+                <outlet property="titleRight" destination="S8W-ns-p5b" id="n86-oA-wwx"/>
+            </connections>
+            <point key="canvasLocation" x="186.95652173913044" y="140.625"/>
+        </tableViewCell>
+    </objects>
+</document>

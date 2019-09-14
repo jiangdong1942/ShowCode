@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="198" id="KGk-i7-Jjw" customClass="JDHomePageProductDetailsProductIntroductionApplicationProcessTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="198"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="197.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="申请流程" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCw-NI-MKQ">
+                        <rect key="frame" x="15" y="15" width="61.5" height="50.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eXb-Xd-o8l">
+                        <rect key="frame" x="0.0" y="78.5" width="320" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="gSP-sc-acf"/>
+                        </constraints>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HomePageApplicationProcess" translatesAutoresizingMaskIntoConstraints="NO" id="KoU-CM-ayO">
+                        <rect key="frame" x="0.0" y="104.5" width="320" height="63"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="63" id="cqL-In-h3D"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BqV-UP-GFX">
+                        <rect key="frame" x="0.0" y="187.5" width="320" height="10"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="Xw0-uV-IgJ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XCw-NI-MKQ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="0pe-WN-AY5"/>
+                    <constraint firstAttribute="trailing" secondItem="KoU-CM-ayO" secondAttribute="trailing" id="9uv-3z-1o8"/>
+                    <constraint firstAttribute="trailing" secondItem="eXb-Xd-o8l" secondAttribute="trailing" id="LOb-Zo-7aw"/>
+                    <constraint firstItem="KoU-CM-ayO" firstAttribute="top" secondItem="eXb-Xd-o8l" secondAttribute="bottom" constant="25" id="TeC-hT-7M2"/>
+                    <constraint firstItem="KoU-CM-ayO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="cxd-zB-Gtl"/>
+                    <constraint firstItem="eXb-Xd-o8l" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="f68-TC-EL1"/>
+                    <constraint firstItem="BqV-UP-GFX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="gPv-Kp-e5h"/>
+                    <constraint firstItem="XCw-NI-MKQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="iLj-ax-G42"/>
+                    <constraint firstItem="BqV-UP-GFX" firstAttribute="top" secondItem="KoU-CM-ayO" secondAttribute="bottom" constant="20" id="qcd-WC-xtS"/>
+                    <constraint firstAttribute="bottom" secondItem="BqV-UP-GFX" secondAttribute="bottom" id="ror-Zx-q7B"/>
+                    <constraint firstItem="eXb-Xd-o8l" firstAttribute="top" secondItem="XCw-NI-MKQ" secondAttribute="bottom" constant="13" id="suC-Tt-BXH"/>
+                    <constraint firstAttribute="trailing" secondItem="BqV-UP-GFX" secondAttribute="trailing" id="z9X-iZ-yOc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="bottomView" destination="BqV-UP-GFX" id="kvy-0c-C5M"/>
+                <outlet property="lineView" destination="eXb-Xd-o8l" id="qZc-vC-Lib"/>
+            </connections>
+            <point key="canvasLocation" x="-171.01449275362319" y="116.51785714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="HomePageApplicationProcess" width="374.5" height="63"/>
+    </resources>
+</document>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="119" id="KGk-i7-Jjw" customClass="JDHomePageProductDetailsAgencyInformationctionTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="119"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="118.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="工商银行金融服务全面介绍,投资理财信息丰富全面,在线交易方便快捷,满足客户专业化、多元化、人性化的金融服务需求,打造集业务、信息、交易、购物、互动于一体综合性" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gqx-Js-ZFg">
+                        <rect key="frame" x="91.5" y="15" width="213.5" height="98.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="机构名称：" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EpO-7N-xem">
+                        <rect key="frame" x="15" y="15" width="76.5" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="76.5" id="Q6G-ea-Zag"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Gqx-Js-ZFg" firstAttribute="leading" secondItem="EpO-7N-xem" secondAttribute="trailing" id="3CW-Yu-7dC"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="EpO-7N-xem" secondAttribute="bottom" id="NWo-xd-x9c"/>
+                    <constraint firstItem="Gqx-Js-ZFg" firstAttribute="top" secondItem="EpO-7N-xem" secondAttribute="top" id="Obv-zu-GT4"/>
+                    <constraint firstItem="EpO-7N-xem" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="gZ7-sm-oxV"/>
+                    <constraint firstItem="EpO-7N-xem" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="i7y-UU-r6P"/>
+                    <constraint firstAttribute="trailing" secondItem="Gqx-Js-ZFg" secondAttribute="trailing" constant="15" id="sYo-cF-pog"/>
+                    <constraint firstAttribute="bottom" secondItem="Gqx-Js-ZFg" secondAttribute="bottom" constant="5" id="zck-cx-JdM"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="contentLabel" destination="Gqx-Js-ZFg" id="rct-bl-TTM"/>
+                <outlet property="nameLabel" destination="EpO-7N-xem" id="Pzd-42-AH9"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="134.26339285714286"/>
+        </tableViewCell>
+    </objects>
+</document>
